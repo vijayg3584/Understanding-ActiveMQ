@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.unico.com.au/codingtest/soapservices/gcd"
+	xmlns:tns="http://www.unico.com.au/codingtest/soapservices/gcd"
+	elementFormDefault="qualified">
+
+	<xs:element name="gcd">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="gcdValue" type="xs:int" nillable="true"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="gcdList">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="gcdList" type="xs:int" maxOccurs="unbounded"
+					minOccurs="0" nillable="true"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="gcdSum">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="gcdSumValue" type="xs:int" nillable="true"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

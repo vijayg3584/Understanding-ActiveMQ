@@ -1,2 +1,2 @@
 # unico-codingtest
-Coding test project for Unico
+Coding test project for Unico.
