@@ -1,4 +1,4 @@
-# unico-codingtest
+# Understanding Apache ActiveMQ
 This project implements both RESTful and SOAP web services. The project is developed as a Spring Boot application using Spring MVC for exposing the web services. It used Spring JMS for interacting with the JMS queue and Spring Data for persistence.
 
 Apache ActiveMQ is used as the JMS queue. The app is configured to connect to ActiveMQ at the default setup. The url for which is http://localhost:8161/admin/browse.jsp?JMSDestination=number-queue. "number-queue" is the name of the queue.
